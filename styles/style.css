@@ -28,7 +28,7 @@ body {
   width: 400px;
   height: 500px;
   border-radius: 10px;
-  box-shadow: 1px 1px 10px #00000022;
+  box-shadow: 1px 1px 10px #D946D2;
 
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -63,14 +63,14 @@ input {
   background: #8390fa;
   border-radius: 5px;
   font-size: 25px;
-  box-shadow: 2px 2px 2px #00000044;
+  box-shadow: 2px 2px 2px #8390fa;
   align-self: center;
   justify-self: center;
   /* cursor: pointer; */
   transition: 200ms ease-in;
 }
 .button:hover {
-  background: #000;
+  background: #6495ed;
 }
 
 @media screen and (max-width: 768px) {
