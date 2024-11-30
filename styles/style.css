@@ -1,0 +1,80 @@
+@import url(null.css);
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4e5166;
+}
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+.error-block {
+  position: absolute;
+  background: red;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+
+  display: none;
+}
+
+.form {
+  background: #7c90a0;
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px #00000022;
+
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.login-block {
+  grid-row: 2;
+  justify-self: center;
+  align-self: center;
+}
+.password-block {
+  grid-row: 3;
+  justify-self: center;
+  align-self: center;
+}
+
+#login {
+  padding: 4px;
+}
+input {
+  border-radius: 5px;
+  margin: 5px 0 0 0;
+}
+#password {
+  padding: 4px;
+}
+
+.button {
+  grid-row: 5;
+  width: 200px;
+  height: 45px;
+  background: #8390fa;
+  border-radius: 5px;
+  font-size: 5px;
+  box-shadow: 2px 2px 2px #00000044;
+  align-self: center;
+  justify-self: center;
+  /* cursor: pointer; */
+  transition: 200ms ease-in;
+}
+.button:hover {
+  background: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .error-block {
+    display: flex;
+  }
+}
