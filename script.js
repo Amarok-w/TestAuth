@@ -1,4 +1,4 @@
-//console.log('ERROR');
+console.log('ERROR');
 
 
 const button = document.querySelector('.button');
